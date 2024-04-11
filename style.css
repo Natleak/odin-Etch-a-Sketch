@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/joystix\ monospace.otf);
+}
+
+body {
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  background-color: rgb(67, 67, 66);
+  color: antiquewhite;
+}
+
+.header {
+  font-family: myFont;
+  text-align: center;
+  font-size: 3em;
+}
+.main {
+  display: flex;
+  padding: 0 2em 2em;
+  justify-content: space-evenly;
+}
+/* buttons */
+.settings_button {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding: 1.125em 3em;
+  margin-top: 1em;
+  border-radius: 50px;
+}
+/* container_grid */
+.container_grid {
+  border: 1px solid white;
+  width: 600px;
+  height: 600px;
+  padding-left: 3em;
+  margin-left: 2em;
+}
