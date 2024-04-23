@@ -1,10 +1,4 @@
-// let gridSlider = document.querySelector(".grid_slider");
-// let gridValue = document.querySelector(".grid_value");
-// gridValue.textContent = gridSlider.value;
-
-// gridSlider.oninput = function () {
-//   gridValue.textContent = this.value;
-// };
+// -- grid slider with labels to know the range of the grid -- //
 
 let gridSlider = document.querySelector(".grid_slider");
 let gridValue = document.querySelectorAll(".grid_value");
